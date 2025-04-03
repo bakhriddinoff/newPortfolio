@@ -1,11 +1,11 @@
 *,html {
     padding: 0;
     margin: 0;
+    transition: all 0.5s ease-in-out;
 }
 
-.body {
+body {
     font-family: "Sora", sans-serif;
-
 }
 
 .container {
@@ -25,6 +25,10 @@ header {
     width: 40%;
     display: flex;
     justify-content: center;
+}
+
+.links-item:hover {
+    color: blueviolet;
 }
 
 header ul {
@@ -58,4 +62,23 @@ li {
     color: white;
     font-weight: 600;
     font-size: 20px;
+    border: none;
+}
+
+.hero {
+    padding-top: 100px;
+}
+
+.btn2 {
+    width: 56px;
+    height: 56px;
+    border-radius: 5px;
+}
+
+.btnjon:hover {
+    background-color: blueviolet;
+}
+
+.btn22 {
+    background-color: black;
 }
