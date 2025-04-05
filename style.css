@@ -67,11 +67,64 @@ li {
 
 .hero {
     padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-hero {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.right-hero {
+    width: 58%;
+}
+
+.img1 {
+    width: 700px;
+}
+
+.text1 {
+    line-height: 1.5;
+    color: #71717A;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.spn1 {
+    font-weight: 800;
+}
+
+/* SECTION2 */
+
+.section2 {
+    padding-top: 100px;
+} 
+
+.heading {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.heading1 {
+    color: white;
+}
+
+.app-wrapper {
+    display: flex;
+    gap: 20px;
 }
 
 .btn2 {
-    width: 56px;
-    height: 56px;
+    width: 46px;
+    height: 46px;
     border-radius: 5px;
 }
 
@@ -82,3 +135,80 @@ li {
 .btn22 {
     background-color: black;
 }
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.logo-item {
+    width: 186px;
+    height: 186px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.logo-item:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.text2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.javasc {
+    background-color: black;
+    color: white;
+}
+
+
+/* SECTION3 */
+
+.section3 {
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-card {
+    width: 1168px;
+    height: 192px;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Includer {
+    padding-top: 20px;
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapperjon {
+    justify-self: start;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
