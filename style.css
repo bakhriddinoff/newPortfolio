@@ -244,3 +244,46 @@ h1 {
     color: #71717A;
     font-size: 16px;
 }
+
+/* SECTION5 */
+
+.section5 {
+    padding-top: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.wrapper-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.num {
+    font-size: 48px;
+    font-weight:800;
+}
+
+.headingcha {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.textP {
+    color: #71717A;
+}
+
+.imgMore {
+    width: 20px;
+    height: 20px;
+}
