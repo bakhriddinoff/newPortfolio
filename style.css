@@ -287,3 +287,7 @@ h1 {
     width: 20px;
     height: 20px;
 }
+
+.two {
+    flex-direction: row-reverse;
+}
