@@ -123,8 +123,8 @@ h1 {
 }
 
 .btn2 {
-    width: 46px;
-    height: 46px;
+    width: 56px;
+    height: 56px;
     border-radius: 5px;
 }
 
@@ -350,4 +350,95 @@ h1 {
     height: 2px;
     background-color: black;
     color: black;
+}
+
+/* SECTION7 */
+
+.section7 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-wrapper {
+    display: flex;
+    gap: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+#input1 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 350px;
+    /* width: 500px;
+    height: 56px; */
+    border-radius: 4px;
+}
+
+#input2 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-right: 350px;
+    /* width: 500px;
+    height: 56px; */
+    border-radius: 4px;
+}
+
+
+::placeholder {
+    color: #71717A;
+    font-size: 20px;
+}
+
+.getin {
+    width: 173px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-hero .app-wrapper {
+    gap: 35px;
+}
+
+.textt {
+    color: #71717A;
+    font-size: 18px;
+}
+
+.headingg {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.contact {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.outlined {
+    color: white;
+    font-weight: 900;
+    text-shadow:
+      -3px -3px 0 black,
+       3px -3px 0 black,
+      -3px  3px 0 black,
+       3px  3px 0 black;
+}
+
+.text-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
 }
