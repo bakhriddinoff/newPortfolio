@@ -358,6 +358,7 @@ h1 {
     padding-top: 100px;
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .all-wrapper {
@@ -407,6 +408,10 @@ form {
     font-size: 20px;
 }
 
+.getin:hover {
+    background-color: blueviolet;
+}
+
 .form-hero .app-wrapper {
     gap: 35px;
 }
@@ -441,4 +446,30 @@ form {
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app {
+    align-self: end;
 }
